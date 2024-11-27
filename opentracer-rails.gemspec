@@ -30,4 +30,5 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "opentelemetry-instrumentation-all", "~> 0.68.0"
   spec.add_runtime_dependency "opentelemetry-sdk", "~> 1.5"
+  spec.add_runtime_dependency "opentelemetry-exporter-otlp"
 end

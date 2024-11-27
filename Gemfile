@@ -16,3 +16,5 @@ gem "opentelemetry-instrumentation-all", "~> 0.68.0"
 
 gem "rails", "~> 8.0"
 gem "rdoc", "~> 6.8"
+
+gem "opentelemetry-exporter-otlp", "~> 0.29.0"

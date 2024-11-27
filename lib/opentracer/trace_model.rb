@@ -1,13 +1,12 @@
-# lib/opentracer/trace_model.rb
-
+require 'active_support/concern'
 module Opentracer
-  module TraceModel
+  module Model
     extend ActiveSupport::Concern
 
     included do
-      around_save :trace_method
-      around_update :trace_method
-      around_create :trace_method
+      around_save    :trace_method
+      around_update  :trace_method
+      around_create  :trace_method
       around_destroy :trace_method
     end
 
